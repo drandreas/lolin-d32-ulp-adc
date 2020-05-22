@@ -48,3 +48,24 @@ new_voltage += raw >> 7;
 new_voltage += raw >> 9;
 new_voltage += raw >> 10;
 ```
+
+## Validation
+
+I've validated the ADC output for 0.1V increments:
+
+| Input | Output |
+| ----- | ------ |
+| 4.3V  | 4.301  |
+| 4.2V  | 4.199  |
+| 4.1V  | 4.100  |
+| 4.0V  | 4.005  |
+| 3.9V  | 3.905  |
+| 3.8V  | 3.810  |
+| 3.7V  | 3.710  |
+| 3.6V  | 3.618  |
+| 3.5V  | 3.504  |
+| 3.4V  | 3.406  |
+| 3.3V  | 3.305  |
+| 3.2V  | 3.194  |
+| 3.1V  | 3.087  |
+| 3.0V  | 2.984  |
